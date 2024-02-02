@@ -30061,4 +30061,14 @@ body {
   margin-top: 5px;
   font-weight: 500;
 }
+
+.research__area{
+display:none;
+}
+.price__area {
+  display: none;
+}
+.blog__area-3{
+  display: none;
+}
 /* add css end */
