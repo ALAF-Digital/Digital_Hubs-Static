@@ -21955,9 +21955,35 @@ img {
   color: var(--white);
 }
 .footer__contact-3 {
-  text-align: right;
+  /* text-align: right; */
   padding-top: 90px;
+  padding-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 50px;
 }
+.footer__contact-3 .news h4{
+ margin-bottom: 20px;
+ color: var(--white);
+ font-family: "newYork";
+ font-size: 16px;
+}
+.footer__contact-3 .form{
+display: flex;
+flex-direction: column;
+gap: 20px;
+}
+.footer__contact-3 .form .form-control{
+padding: 22px 30px;
+border-radius: 0;
+border: 1px solid var(--gray-17);
+background-color: transparent !important;
+box-shadow: none !important;
+color-scheme: light;
+color: var(--gray-2) !important;
+}
+
 @media only screen and (min-width: 1200px) and (max-width: 1399px) {
   .footer__contact-3 {
     padding-top: 0;
@@ -21969,7 +21995,8 @@ img {
             align-items: center;
     -webkit-box-pack: end;
         -ms-flex-pack: end;
-            justify-content: flex-end;
+            justify-content: center;
+            
   }
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
@@ -21983,7 +22010,7 @@ img {
             align-items: center;
     -webkit-box-pack: end;
         -ms-flex-pack: end;
-            justify-content: flex-end;
+            justify-content: center;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -21997,14 +22024,15 @@ img {
             align-items: center;
     -webkit-box-pack: end;
         -ms-flex-pack: end;
-            justify-content: flex-end;
+            justify-content: center;
   }
 }
 @media only screen and (max-width: 767px) {
   .footer__contact-3 {
-    text-align: center;
+    /* text-align: center; */
     margin-bottom: 50px;
     padding-top: 60px;
+    align-items: center;
   }
 }
 .footer__contact-3 a {
@@ -30062,7 +30090,7 @@ body {
   font-weight: 500;
 }
 
-.research__area{
+/* .research__area{
 display:none;
 }
 .price__area {
@@ -30070,5 +30098,5 @@ display:none;
 }
 .blog__area-3{
   display: none;
-}
+} */
 /* add css end */
