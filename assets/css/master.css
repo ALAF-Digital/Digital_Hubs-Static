@@ -30082,7 +30082,7 @@ body {
 .header__logo-2 .logo-dark img{
   width: 136px;
   height: 45px;
-  object-fit: contain;
+  object-fit: cover;
 }
 .service-heading{
   margin-bottom: 10px;
@@ -30094,5 +30094,15 @@ body {
   width: 100px;
   height: 80px;
   object-fit: contain;
+}
+.offcanvas__logo img{
+  width: 136px;
+  height: 45px;
+  object-fit: cover;
+}
+.footer__logo-3 img{
+  width: 136px;
+  height: 45px;
+  object-fit: cover;
 }
 /* add css end */
