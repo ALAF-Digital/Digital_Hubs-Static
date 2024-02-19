@@ -284,7 +284,7 @@
 }
 
 .pt-120 {
-  padding-top: 120px;
+  padding-top: 40px;
 }
 @media only screen and (max-width: 767px) {
   .pt-120 {
@@ -21650,7 +21650,7 @@ img {
   margin-bottom: 30px;
 }
 .footer__logo-3 img {
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
 .footer__logo-3 p {
   max-width: 310px;
@@ -21956,12 +21956,12 @@ img {
 }
 .footer__contact-3 {
   /* text-align: right; */
-  padding-top: 90px;
+  padding-top: 10px;
   padding-bottom: 20px;
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  gap: 50px;
+  gap: 20px;
 }
 .footer__contact-3 .news h4{
  margin-bottom: 20px;
@@ -22037,7 +22037,7 @@ color: var(--gray-2) !important;
 }
 .footer__contact-3 a {
   font-weight: 400;
-  font-size: 180px;
+  font-size: 145px;
   line-height: 1;
   text-align: center;
   text-transform: uppercase;
@@ -30101,8 +30101,16 @@ body {
   object-fit: cover;
 }
 .footer__logo-3 img{
-  width: 136px;
-  height: 45px;
+  width: 200px;
+  height: 175px;
   object-fit: cover;
+}
+.btn_wrapper1{
+  height: auto !important;
+}
+.btn_wrapper1 .wc-btn-primary{
+  height: 90px;
+  width: 90px;
+  position: unset !important;
 }
 /* add css end */
