@@ -30079,7 +30079,7 @@ body {
 
 
 /* add css */
-.header__logo-2 .logo-dark img{
+.header__logo-2  img{
   width: 136px;
   height: 45px;
   object-fit: cover;
