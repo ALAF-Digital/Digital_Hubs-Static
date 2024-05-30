@@ -10359,7 +10359,7 @@ img {
 
 .research__area {
   background-color: var(--pink-3);
-  background-image: url(../imgs/shape/8.png);
+  /* background-image: url(../imgs/shape/8.png); */
   background-repeat: no-repeat;
   background-position: 200px calc(100% - 150px);
 }
@@ -10680,6 +10680,9 @@ img {
   position: relative;
   z-index: 1;
   margin-left: 1px;
+}
+.brand__list-3{
+  gap: 25px;
 }
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   .brand__list, .brand__list-3, .brand__list-2 {
@@ -30148,6 +30151,32 @@ body {
 }
 .portfolio__slide-2{
   height: 420px;
+}
+.counter__area-3 .sec-title {
+  text-transform: uppercase;
+  padding-bottom: 50px;
+}
+.counter__area-3 .sec-title-wrapper p {
+  margin-left: 80px;
+}
+.new-area{
+  background-color: var(--pink-3);
+}
+
+.new-area .sec-sub-title {
+  padding-bottom: 140px;
+}
+.new-area .sec-title {
+  text-transform: uppercase;
+  padding-bottom: 50px;
+}
+.new-area .sec-title-wrapper p {
+  margin-left: 80px;
+}
+@media only screen and (max-width: 767px) {
+  .portfolio__slide-2{
+    height: auto;
+  }
 }
 
 /* add css end */
