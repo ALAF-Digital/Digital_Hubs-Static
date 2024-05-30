@@ -30139,7 +30139,7 @@ body {
 
 .slide-heading .sec-text{
   padding-left: 70px;
-  margin-bottom: 60px;
+  margin-bottom: 30px;
   font-size: 45px;
 }
 .slide-img img{
@@ -30150,7 +30150,8 @@ body {
 
 }
 .portfolio__slide-2{
-  height: 420px;
+  height: 450px;
+  margin-bottom: 80px;
 }
 .counter__area-3 .sec-title {
   text-transform: uppercase;
@@ -30158,6 +30159,7 @@ body {
 }
 .counter__area-3 .sec-title-wrapper p {
   margin-left: 80px;
+  max-width: 360px;
 }
 .new-area{
   background-color: var(--pink-3);
@@ -30172,6 +30174,7 @@ body {
 }
 .new-area .sec-title-wrapper p {
   margin-left: 80px;
+  max-width: 360px;
 }
 @media only screen and (max-width: 767px) {
   .portfolio__slide-2{
