@@ -15212,9 +15212,9 @@ img {
   background-color: var(--pink-5);
 }
 @media only screen and (min-width: 1920px) {
-  .cta__area-3 {
+  /* .cta__area-3 {
     padding-top: 60px;
-  }
+  } */
 }
 @media only screen and (min-width: 1400px) and (max-width: 1919px) {
   .cta__area-3 {
@@ -30118,7 +30118,9 @@ body {
   width: 90px;
   position: unset !important;
 }
-
+.title-anim p{
+  color: #fff;
+}
 
 /* Contact Us */
 
